@@ -80,7 +80,7 @@ public class Main extends JFrame {
 	       // handle exception
 	    } 
 		
-		 new PantallaCargandoMain();
+		new InitDialog();
 		 
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
